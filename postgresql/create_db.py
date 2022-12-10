@@ -8,10 +8,5 @@ myconnection = mysql.connector.connect(
 )
 
 mycursor = myconnection.cursor()
-mycursor.execute("")
-
-# mycursor.execute("SHOW DATABASES")    #to return every database 
-# for i in mycursor:
-#     print(i)
-
+mycursor.execute("CREATE DATABASE mydatabase ")
 
