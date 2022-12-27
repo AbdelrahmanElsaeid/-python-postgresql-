@@ -10,7 +10,7 @@ myconnection = mysql.connector.connect(
 mycursor = myconnection.cursor()          # my cursor to perform database operations
 mycursor.execute("")                      # perform queries on database
 
-# mycursor.execute("SHOW DATABASES")    #to return every database 
+# mycursor.execute("SHOW DATABASES")      #to return every database 
 # for i in mycursor:
 #     print(i)
 
