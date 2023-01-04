@@ -14,3 +14,4 @@ mycursor.execute("DELETE FROM movies WHERE name='Shazam' ")
 
 
 myconnection.commit()
+#-----------------------------------------------------------------------
